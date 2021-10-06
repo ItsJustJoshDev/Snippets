@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(3) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(3) .container-2ax-kl {
+  color: #e3a171;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(4) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(4) .container-2ax-kl {
+  color: #ff6a00;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(5) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(5) .container-2ax-kl {
+  color: #7a6352;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(6) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(6) .container-2ax-kl {
+  color: #322923;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(7) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(7) .container-2ax-kl {
+  color: #392110;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(8) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(8) .container-2ax-kl {
+  color: #db9564;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(9) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(9) .container-2ax-kl {
+  color: #aa4700;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(10) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(10) .container-2ax-kl {
+  color: #2b1708;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(11) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(11) .container-2ax-kl {
+  color: #e6cdbc;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(12) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(12) .container-2ax-kl {
+  color: black;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(13) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(13) .container-2ax-kl {
+  color: #c4c4c4;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(14) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(14) .container-2ax-kl {
+  color: black;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(15) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(15) .container-2ax-kl {
+  color: #713c17;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(16) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(16) .container-2ax-kl {
+  color: #362f2a;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(17) .icon-1DeIlz, .container-3w7J-x[aria-label*="Joshua's Palace"] .content-3YMskv > :nth-child(17) .container-2ax-kl {
+  color: #cf9e7b;
+}
+.container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
+  color: #b172c7 !important;
+}
+
+.headerButton-3in1-b[aria-label="Joshua's Palace, server actions"]::after {
+  content: "";
+  position: fixed;
+  right: 10px;
+  bottom: -25px;
+  width: 120px;
+  height: 120px;
+  z-index: 1001 !important;
+  background: url("https://i.imgur.com/Z6RL1No.png") center/100% no-repeat;
+  pointer-events: none;
+}
+
+.blobContainer-pmnxKB[src*="818960705255899178"]:hover .icon-27yU2q[src="https://cdn.discordapp.com/icons/811203761619337259/cbbe557dad5f5f43e5dea3f9e7a75e14.webp?size=96"] {
+  content: url("https://i.imgur.com/HKhLifk.gif");
+}

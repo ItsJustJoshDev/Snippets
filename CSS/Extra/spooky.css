@@ -48,6 +48,9 @@
 .container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
   color: #b172c7 !important;
 }
+.container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ [class*="strikethrough"] {
+  color: #f5bdf4 !important;
+}
 
 .headerButton-3in1-b[aria-label="Joshua's Palace, server actions"]::after {
   content: "";

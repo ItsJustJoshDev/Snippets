@@ -1,0 +1,42 @@
+/* Settings Icons */ @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+/* Settings Grid */
+[aria-label="USER_SETTINGS"] .side-8zPYf6 {
+  height: auto;
+  display: grid;
+  width: auto;
+  grid-template-columns: auto;
+}
+[aria-label="USER_SETTINGS"] .item-PXvHYJ {
+  text-align: center;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e {
+  width: 350px;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .side-8zPYf6 {
+  height: inherit;
+}
+[aria-label="USER_SETTINGS"] .header-2RyJ0Y {
+  text-align: left;
+  grid-column: 1 / 3;
+  font-size: 15px;
+  height: 30px;
+}
+[aria-label="USER_SETTINGS"] .separator-gCa7yv {
+  grid-column: 1 / 3;
+}
+/* code from nyr4's comfy */
+[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy {
+  flex: 1 1 100%;
+}
+[aria-label="USER_SETTINGS"] .contentColumn-2hrIYH, [aria-label="USER_SETTINGS"] .customColumn-Rb6toI, [aria-label="USER_SETTINGS"] .sidebarScrollable-1qPI87 + .content-1rPSz4, [aria-label="USER_SETTINGS"] .customScroller-26gWhv > div {
+  max-width: 95%;
+}
+
+body #app-mount .sidebarRegion-VFTUkN {
+	flex-basis: calc(380px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}
+body #app-mount .sidebar-CFHs9e,
+body #app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-CFHs9e {
+	width: calc(380px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}

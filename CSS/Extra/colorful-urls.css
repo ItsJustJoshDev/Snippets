@@ -1,3 +1,4 @@
+@import url("https://corellanstoma.github.io/CreArts-Discord/addons/bad-http.css");
 /* Message Links */
 /* Replaces Message Links with "Jump to Message" */
 [href*="discord.com/channels/"] {color: #5865F2 !important;}

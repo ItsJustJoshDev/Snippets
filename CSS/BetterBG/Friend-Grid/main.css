@@ -1,3 +1,3 @@
 @import url("https://corellanstoma.github.io/Friends-Grid/theme.css");
-:root {--FG-avatar-shape: var(--avatar-radius) !important;}
+:root {--FG-avatar-shape: var(--avatar-radius) !important;--FG-cards-banner-background: var(--user-accent-color) !important;}
 [class*="peopleColumn"] [class*="userInfo"]::before {background-image: var(--user-background) !important;}

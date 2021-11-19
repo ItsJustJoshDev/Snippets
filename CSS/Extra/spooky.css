@@ -1,4 +1,4 @@
-@import url("https://nyri4.github.io/halloween/halloween.css");
+/* No More Spooky - @import url("https://nyri4.github.io/halloween/halloween.css"); */
 
 /* User Buttons - Light */
 .theme-light .container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
@@ -28,6 +28,10 @@
   pointer-events: none;
 }
 
-.blobContainer-pmnxKB[src*="818960705255899178"]:hover .icon-27yU2q[src="https://cdn.discordapp.com/icons/811203761619337259/cbbe557dad5f5f43e5dea3f9e7a75e14.webp?size=96"] {
-  content: url("https://i.imgur.com/HKhLifk.gif");
+.blobContainer-pmnxKB[src*="910603416349335632"] .icon-27yU2q {
+  content: url("https://i.imgur.com/glQbIMG.png");
+}
+
+.blobContainer-pmnxKB[src*="910603416349335632"]:hover .icon-27yU2q {
+  content: url("https://i.imgur.com/tu3WU1c.png");
 }

@@ -2,13 +2,7 @@
 
 @charset "UTF-8";
 
-.theme-light .container-3w7J-x[aria-label*="Joshua's Palace"] [class*="content"] [class*="icon"] {
-  color: #713b7d !important;
-}
-.theme-light .container-3w7J-x[aria-label*="Joshua's Palace"] [class*="content"] [class*="container"] {
-  color: #22706e !important;
-}
-
+/* User Buttons - Light */
 .theme-light .container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
   color: #55365f !important;
 }
@@ -16,13 +10,7 @@
   color: #685068 !important;
 }
 
-.theme-dark .container-3w7J-x[aria-label*="Joshua's Palace"] [class*="content"] [class*="icon"] {
-  color: #834591 !important;
-}
-.theme-dark .container-3w7J-x[aria-label*="Joshua's Palace"] [class*="content"] [class*="container"] {
-  color: #2a8a88 !important;
-}
-
+/* User Buttons - Dark */
 .theme-dark .container-3w7J-x[aria-label*="Joshua's Palace"] + .panels-j1Uci_ > .container-3baos1 .button-14-BFJ {
   color: #b172c7 !important;
 }

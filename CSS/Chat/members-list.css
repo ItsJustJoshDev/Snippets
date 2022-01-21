@@ -1,43 +1,60 @@
-[class*="membersWrap-"] {
-    margin-right: -175px;
-    transition: transform .35s;
-    z-index: 10;
+.members-3WRCEx,
+.membersWrap-3NUR2t,
+.searchResultsWrap-5RVOkx {
+	border-radius: var(--primary-rounding) !important;
+	width: 52px;
+	min-width: 52px;
+	transition-property: width, min-width;
+	transition-duration: 0.8s;
 }
 
-[class*="membersWrap-"]:hover,
-[class*="membersWrap-"]:focus,
-[class*="membersWrap-"]:focus-within {
-    transform: translatex(-175px);
+.members-3WRCEx {
+	background: transparent !important;
+	margin-left: -10px;
+	min-width: 62px;
+	width: 62px;
+	transition-property: width, min-width;
+	transition-duration: 0.8s;
 }
 
-[class*="membersWrap-"] > [class*="members-"] {
-    background-color: var(--background-primary);
-    transition: background-color .2s;
-    max-width: 200vw;
+.members-3WRCEx:hover {
+	margin-left: 0px;
 }
 
-[class*="membersWrap-"] > [class*="members-"] > div {
-    background: none !important;
+.members-3WRCEx:hover,
+.membersWrap-3NUR2t:hover {
+	width: 240px;
+	min-width: 240px;
 }
 
-[class*="membersWrap-"]:hover > [class*="members-"],
-[class*="membersWrap-"]:focus-within > [class*="members-"] {
-    background-color: var(--background-secondary);
+.searchResultsWrap-5RVOkx:hover {
+	width: 418px;
+	min-width: 418px;
 }
 
-[class*="membersWrap-"] [class*="membersGroup-"] {
-    margin-right: auto;
-    width: 55px;
-    text-overflow: clip;
-    direction: rtl;
-    word-spacing: 1000px;
+.searchResultGroup-1lU_-i {
+	width: 394px;
 }
 
-[class*="membersWrap-"]:hover [class*="membersGroup-"],
-[class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
-    width: 100%;
-    margin: 0;
-    direction: ltr;
-    word-spacing: unset;
-    text-overflow: ellipsis;
+.membersWrap-3NUR2t,
+.searchResultsWrap-5RVOkx {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	box-shadow: none;
+}
+
+.chatContent-3KubbW {
+	min-width: calc(100% - 64px);
+	max-width: calc(100% - 64px);
+}
+
+.chatContent-3KubbW[aria-label=" (channel)"] {
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.membersWrap-3NUR2t:not(:hover) .membersGroup-2eiWxl {
+	height: 0px;
+	padding: 0px;
 }

@@ -1,0 +1,55 @@
+#app-mount .root-2zfUH6 .closeWrapper-9ScmSq,
+#app-mount .root-2zfUH6 .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root-2zfUH6 .closeWrapper-9ScmSq .container-O54IuJ,
+#app-mount .root-2zfUH6 .closeWrapper-9ScmSq .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+}
+
+#app-mount .root-2zfUH6 .closeWrapper-9ScmSq {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}

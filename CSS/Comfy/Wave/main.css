@@ -1,1 +1,57 @@
+@import url("https://therealgwjosh.github.io/Snippets/CSS/Comfy/Wave/popout.css");
+@import url("https://therealgwjosh.github.io/Snippets/CSS/Comfy/Wave/modal.css");
 
+:root {
+
+	--about-me-padding: 0 0 5px 0;
+	--about-me-margin-bottom: 6px;
+	--about-me-opacity: 0;
+	--about-me-text: var(--header-primary);
+	--about-me-bg: var(--background-secondary);
+	--about-me-normal: var(--brand-experiment);
+
+}
+
+:root *[aria-label^="It'sJustJosh"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 6px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+	--user-accent: #a28b4f;
+
+}
+
+:root *[aria-label^="Joshua Malava"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 16px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+	--user-accent: #c780bb;
+
+}
+
+
+@keyframes animate {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 268px;
+  }
+}
+
+@keyframes animate2 {
+	0% {
+		-webkit-mask-position-x: 268px;
+	}
+
+	100% {
+		-webkit-mask-position-x: 0;
+	}
+}

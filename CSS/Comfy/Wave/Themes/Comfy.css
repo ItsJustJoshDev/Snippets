@@ -1,0 +1,152 @@
+:root {
+
+	--about-me-padding: 0 0 5px 0;
+	--about-me-margin-bottom: 6px;
+	--about-me-opacity: 0;
+	--about-me-text: var(--header-primary);
+	--about-me-bg: var(--background-secondary);
+	--about-me-normal: var(--brand-experiment);
+
+}
+
+@keyframes animate {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 268px;
+  }
+}
+
+@keyframes animate2 {
+	0% {
+		-webkit-mask-position-x: 268px;
+	}
+
+	100% {
+		-webkit-mask-position-x: 0;
+	}
+}
+
+/* Custom Wave - Popout */
+:root [class*="aboutMe"]::before {
+	content: "";
+	position: absolute;
+	height: 21px;
+	z-index: 1;
+	width: 268px;
+	top: 12px;
+	left: 16px;
+	background: var(--about-me-bg);
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+	animation: animate2 4s linear infinite;
+	animation-delay: 0s;
+	opacity: 1;
+	pointer-events: none;
+}
+
+:root [class*="aboutMe"]::after {
+	content: "";
+	position: absolute;
+	height: 21px;
+	z-index: 2;
+	width: 268px;
+	top: 12px;
+	left: 16px;
+	background: var(--user-accent, var(--about-me-normal));
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+	animation: animate 6s linear infinite;
+	animation-delay: 0s;
+	opacity: 1;
+	pointer-events: none;
+}
+
+:root [class*="aboutMe"] {
+	border-radius: 5px !important;
+	z-index: 1;
+}
+
+:root [class*="aboutMeBody-"] {
+	background: var(--user-accent, var(--about-me-normal));
+	color: var(--about-me-text);
+	border-radius: 5px !important;
+	/*padding: 10px 10px 10px 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: -6px;*/
+	z-index: 1;
+}
+
+.aboutMeTitle-3pjiS7 {
+    background: var(--background-secondary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+.aboutMeBody-1J8rhz {
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+:root [class*="userPopout"] [class*="aboutMeTitle-"] {
+	background: transparent !important;
+	height: 21px !important;
+	font-size: 0 !important;
+	border-radius: 0px !important;
+	margin-bottom: -3px !important;
+	z-index: 1 !important;
+}
+
+/* Fix The BS */
+.aboutMeSection-PUghFQ {
+    position: relative;
+}
+
+/* Custom Wave - Modal */
+:root [class*="userBio"] {
+	background: var(--user-accent, var(--about-me-normal));
+	border-radius: 5px;
+	padding: 10px 10px 15px 10px;
+	margin: 20px auto 10px auto;
+}
+
+:root [class*="userBio"]::before {
+	content: "";
+	position: absolute;
+	height: 21px;
+	z-index: 1;
+	width: 668px;
+	top: 20px;
+	left: 20px;
+	background: #456;
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+	animation: animate2 4s linear infinite;
+	animation-delay: 0s;
+	opacity: 1;
+	pointer-events: none;
+}
+
+:root [class*="userBio"]::after {
+	content: "";
+	position: absolute;
+	height: 21px;
+	z-index: 2;
+	width: 668px;
+	top: 20px;
+	left: 20px;
+	background: var(--user-accent, var(--about-me-normal));
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+	animation: animate 6s linear infinite;
+	animation-delay: 0s;
+	opacity: 1;
+	pointer-events: none;
+}
+
+:root [class*="root-8LYsGj"] [class*="userInfoSectionHeader-"]:first-child {
+	color: transparent !important;
+	font-size: 0 !important;
+	margin-top: -15px !important;
+}

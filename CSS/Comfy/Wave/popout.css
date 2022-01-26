@@ -77,3 +77,33 @@
 .aboutMeSection-PUghFQ {
     position: relative;
 }
+
+@keyframes animate {
+  0% {
+    -webkit-mask-position-x: 0;
+  }
+  100% {
+    -webkit-mask-position-x: 268px;
+  }
+}
+
+@keyframes animate2 {
+	0% {
+		-webkit-mask-position-x: 268px;
+	}
+
+	100% {
+		-webkit-mask-position-x: 0;
+	}
+}
+
+:root {
+
+	--about-me-padding: 0 0 5px 0;
+	--about-me-margin-bottom: 6px;
+	--about-me-opacity: 0;
+	--about-me-text: var(--header-primary);
+	--about-me-bg: var(--background-secondary);
+	--about-me-normal: var(--brand-experiment);
+
+}

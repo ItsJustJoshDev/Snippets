@@ -1,0 +1,23 @@
+:root *[aria-label^="It'sJustJosh"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 6px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+	--user-accent: #a28b4f;
+
+}
+
+:root *[aria-label^="Joshua Malava"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 16px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+	--user-accent: #c780bb;
+
+}

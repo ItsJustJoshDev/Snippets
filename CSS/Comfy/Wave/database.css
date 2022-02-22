@@ -1,21 +1,70 @@
-	:root *[aria-label^="ItsJustJoshDev"] {
+[user_by_bdfdb="938557606820204625"],
+[data-user-id="938557606820204625"],
+[vz-user-id="938557606820204625"],
+[data-author-id="938557606820204625"],
+[data-list-item-id*=_938557606820204625],
+[aria-label^="ItsJustJoshDev"] {
 
-		--about-me-radius: 5px;
-		--about-me-padding: 16px;
-		--about-me-margin-top: 31px;
-		--about-me-margin-bottom: 6px;
-		--about-me-opacity: 1;
-		--about-me-text: black;
-		--user-accent: #a28b4f;
-	}
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 16px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
 
-	:root *[aria-label^="Joshua Malava"] {
+	--USRBG-WM-Type-Dark: "uwu :3";
+	--USRBG-WM-Type-Light: "uwu :3";
+	--bg-wm-border-radius: 5px !important;
+	--bg-brand: var(--user-accent);
+	--bg-text: #fff;
+	--BetterBG-Opacity: 1 !important;
 
-		--about-me-radius: 5px;
-		--about-me-padding: 16px;
-		--about-me-margin-top: 31px;
-		--about-me-margin-bottom: 16px;
-		--about-me-opacity: 1;
-		--about-me-text: black;
-		--user-accent: #c780bb;
-	}
+	--user-accent: #a28b4f;
+	--user-background: url('https://i.imgur.com/n2VtXeA.gif') !important;
+
+}
+
+[data-author-id="750781478991954031"],
+[vz-user-id="750781478991954031"],
+[data-user-id="750781478991954031"],
+[user_by_bdfdb="750781478991954031"],
+[data-list-item-id*=_750781478991954031],
+[aria-label^="Joshua Malava"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 16px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+
+	--USRBG-WM-Type-Dark: "CSS Dev";
+	--USRBG-WM-Type-Light: "CSS Dev";
+	--bg-wm-border-radius: 5px !important;
+	--bg-brand: var(--user-accent);
+	--bg-text: #fff;
+	--BetterBG-Opacity: 1 !important;
+
+	--user-accent: #c780bb;
+	--user-background: url('https://i.imgur.com/n2VtXeA.gif') !important;
+
+}
+
+[data-author-id="865632950443835392"],
+[vz-user-id="865632950443835392"],
+[data-user-id="865632950443835392"],
+[user_by_bdfdb="865632950443835392"],
+[data-list-item-id*=_865632950443835392],
+[aria-label^="Wme"] {
+
+	--about-me-radius: 5px;
+	--about-me-padding: 16px;
+	--about-me-margin-top: 31px;
+	--about-me-margin-bottom: 16px;
+	--about-me-opacity: 1;
+	--about-me-text: black;
+
+	--user-accent: rgba(89, 54, 149);
+	--user-background: url('https://discord.com/assets/b4389a07796a128a9e86e28e7f6df386.svg') !important;
+
+}

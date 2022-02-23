@@ -2,10 +2,7 @@
 	filter: var(--status-filter) !important;
 }
 
-* #app-mount .wrapper-1VLyxH rect[fill="rgba(116, 127, 141, 1)"], 
-* #app-mount .wrapper-1VLyxH rect[mask*=invisible], 
-* #app-mount .wrapper-1VLyxH rect[fill*="hsl(214"],
-* #app-mount .wrapper-1VLyxH rect[fill="#747f8d"] {
+* #app-mount .wrapper-1VLyxH rect[mask*=invisible] {
 	fill: var(--invisible) !important; /* Invisible */
 	background: var(--invisible) !important; /* Invisible */
 }

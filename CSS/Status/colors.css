@@ -2,6 +2,14 @@
 	filter: var(--status-filter) !important;
 }
 
+* #app-mount .wrapper-1VLyxH rect[fill="rgba(116, 127, 141, 1)"], 
+* #app-mount .wrapper-1VLyxH rect[mask*=invisible], 
+* #app-mount .wrapper-1VLyxH rect[fill*="hsl(214"],
+* #app-mount .wrapper-1VLyxH rect[fill="#747f8d"] {
+	fill: var(--invisible) !important; /* Invisible */
+	background: var(--invisible) !important; /* Invisible */
+}
+
 * [style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 * [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
 * #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"],

@@ -1,0 +1,58 @@
+* #app-mount .wrapper-1VLyxH rect {
+	filter: var(--status-filter) !important;
+}
+
+* [style="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
+* [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
+* #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"],
+* #app-mount .wrapper-1VLyxH rect[fill*="hsl(139"],
+* #app-mount .wrapper-1VLyxH rect[fill="#3ba55c"],
+* #app-mount .wrapper-1VLyxH rect[fill="#43b581"],
+* #app-mount .wrapper-1VLyxH rect[mask*=online],
+* #status-picker-online .status-2DiCMd,
+* rect[fill^="hsl(139,"] {
+	background: var(--online) !important; /* Online */
+	fill: var(--online) !important; /* Online */
+}
+
+
+* [style="background-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);"],
+* [fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
+* #app-mount .wrapper-1VLyxH rect[fill="rgba(250, 166, 26, 1)"],
+* #app-mount .wrapper-1VLyxH rect[fill="#faa61a"],
+* #app-mount .wrapper-1VLyxH rect[fill*="hsl(38"],
+* #app-mount .wrapper-1VLyxH rect[mask*=idle],
+* #status-picker-idle .status-2DiCMd,
+* rect[fill^="hsl(38,"] {
+	background: var(--idle) !important; /* Idle */
+	fill: var(--idle) !important; /* Idle */
+}
+
+* [style="background-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"],
+* [fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
+* #app-mount .wrapper-1VLyxH rect[fill="rgba(240, 71, 71, 1)"],
+* #app-mount .wrapper-1VLyxH rect[fill*="hsl(359"],
+* #app-mount .wrapper-1VLyxH rect[fill="#f04747"],
+* #app-mount .wrapper-1VLyxH rect[fill="#ed4245"],
+* #app-mount .wrapper-1VLyxH rect[mask*=dnd],
+* #status-picker-dnd .status-2DiCMd,
+* rect[fill^="hsl(359,"] {
+	fill: var(--dnd) !important; /* DND */
+	background: var(--dnd) !important; /* DND */
+}
+
+* [style="background-color: hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
+* [fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
+* #app-mount .wrapper-1VLyxH rect[mask*=streaming], 
+* #app-mount .wrapper-1VLyxH rect[fill="#593695"],
+* rect[fill^="hsl(262,"] {
+	fill: var(--streaming) !important; /* Streaming */
+	background: var(--streaming) !important; /* Streaming */
+}
+
+* [style="background-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);"], 
+* [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
+* rect[fill^="hsl(214,"] {
+	fill: var(--offline) !important; /* Offline */
+	background: var(--offline) !important; /* Offline */
+}

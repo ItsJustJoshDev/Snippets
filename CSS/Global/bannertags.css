@@ -1,0 +1,72 @@
+/* usrmodal */
+#app-mount .root-8LYsGj .banner-1YaD3N:not(.profileBannerPremium-KD60EB):before {
+	content: "Color";
+	padding: 5px;
+	border-radius: var(--radius-secondary, 8px);
+	background: var(--brand-experiment);
+	position: absolute;
+	font-size: 10px !important;
+	font-weight: 600;
+	font-family: var(--font-primary);
+	height: auto;
+	width: auto;
+	color: var(--header-primary);
+	top: 8px;
+	left: 8px;
+	z-index: 1 !important;
+}
+
+#app-mount .root-8LYsGj .profileBannerPremium-KD60EB::before {
+	content: "Nitro";
+	padding: 5px;
+	border-radius: var(--radius-secondary, 8px);
+	background: var(--user-accent, var(--brand-experiment));
+	position: absolute;
+	font-size: 10px !important;
+	font-weight: 600;
+	font-family: var(--font-primary);
+	height: auto;
+	width: auto;
+	color: var(--header-primary);
+	top: 8px;
+	left: 8px;
+	z-index: 4 !important;
+	pointer-events: none !important;
+}
+
+/* usrpopout */
+[class*="userPopout-"] .banner-1YaD3N:not(.popoutBannerPremium-3i5EEI):not(.bannerPremium-kkSkPv)::before {
+	content: "Color"; padding: 5px;
+	border-radius: var(--radius-secondary, 8px);
+	background: var(--brand-experiment);
+	position: absolute;
+	font-size: 10px !important;
+	font-weight: 600;
+	font-family: var(--font-primary);
+	height: auto; width: auto;
+	color: var(--header-primary);
+	top: 8px; left: 8px;
+	z-index: 1 !important;
+}
+
+[class*="userPopout-"] .bannerPremium-kkSkPv::before {
+	content: "Nitro"; padding: 5px;
+	border-radius: var(--radius-secondary, 8px);
+	background: var(--user-accent, var(--brand-experiment));
+	position: absolute;
+	font-size: 10px !important;
+	font-weight: 600;
+	font-family: var(--font-primary);
+	height: auto; width: auto;
+	color: var(--header-primary);
+	top: 8px; left: 8px;
+	z-index: 1 !important;
+}
+
+/* Begone */
+#app-mount .root-8LYsGj [class*="premiumIconWrapper-"] *,
+#app-mount .root-8LYsGj [class*="premiumIconWrapper-"],
+[class*="userPopout-"] [class*="premiumIconWrapper-"] *,
+[class*="userPopout-"] [class*="premiumIconWrapper-"] {
+	display: none !important; background: none; d: none;
+}

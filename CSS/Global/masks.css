@@ -1,0 +1,69 @@
+/* Remove */
+:root *[class*="avatarContainer"] foreignObject,
+:root *[class*="callAvatarMask"] foreignObject,
+:root *[class*="avatarMasked"] foreignObject,
+:root *[class*="wrapper"] foreignObject,
+:root *[class*="avatar"] foreignObject {
+	mask: none !important;
+	-webkit-mask: none !important;
+}
+
+:root *[class*="wrapperSimple"] {
+	overflow: visible;
+}
+
+/* Avatars */
+:root [class*="chat-"] [class*="form-"] [class*="channelTextArea-"] [class*="scrollableContainer-"]::after,
+:root [class*="chat-"] [class*="form-"] [class*="wrapper-"]::after {
+	border-radius: calc(var(--avatar-radius) + 2px);
+}
+
+:root .root-8LYsGj [class*="topSection-"] > header [class*="header-"] [class*="mask-"] foreignObject {
+	mask: none; border-radius: var(--avatar-radius);
+}
+
+:root [class*="profileCustomizationSection-"] [class*="baseLayout-"] [class*="avatarUploaderInner-"] {
+	border-radius: var(--avatar-radius);
+}
+
+:root .wrapper-1VLyxH,
+:root [class*="avatar-"],
+:root [class*="avatarHint-"],
+:root [class*="profile-"] [class*="avatarUploaderInner-"],
+:root [class*="voiceAvatar-"],
+:root .border-2BJQjd,
+:root [class*="clickableAvatar-"],
+:root [class*="emptyUser-"],
+:root .wrapper-3mYmFS.ringingIncoming-fibTw-::after,
+:root .wrapper-3mYmFS.ringingOutgoing-1NjfRn::after,
+:root [class*="replyAvatar-"],
+:root [class*="avatarSpeaking-"],
+:root [class*="avatarContainerMasked-"],
+:root [class*="appAvatar-"] {
+	border-radius: var(--avatar-radius);
+}
+
+/* Servers */
+:root [class*="expandedFolderBackground-"] {
+	border-radius: var(--server-radius);
+}
+
+:root [class*="wrapperSimple-"],
+:root .wrapper-28eC3z foreignObject,
+:root [class*="folderIconWrapper-"],
+:root [class*="expandedFolderBackground-"],
+:root [class*="flexChild-"] .avatarUploaderInner-yEhTv5 {
+	border-radius: var(--server-radius);
+}
+
+:root .iconInactive-26M06U {
+	border-radius: calc(var(--server-radius) - 4px);
+}
+
+:root .wrapper-28eC3z foreignObject {
+	transition: border-radius 200ms;
+}
+
+:root .wrapper-28eC3z:hover foreignObject {
+	border-radius: calc(var(--server-radius) - 3px);
+}
